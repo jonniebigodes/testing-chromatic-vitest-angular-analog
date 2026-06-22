@@ -68,8 +68,8 @@ export default defineConfig(({ mode }) => ({
             },
             instances: [
               { browser: "chromium" },
-              /*   { browser: "firefox" },
-              { browser: "webkit" }, */
+              { browser: "firefox" },
+              { browser: "webkit" },
             ],
           },
         },
